@@ -14,6 +14,13 @@
 		CBBDABB32408E98B00240C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBDABB22408E98B00240C5C /* Assets.xcassets */; };
 		CBBDABB62408E98B00240C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBDABB42408E98B00240C5C /* LaunchScreen.storyboard */; };
 		CBBDABB92408E98B00240C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABB82408E98B00240C5C /* main.m */; };
+		CBBDABC32408E9CA00240C5C /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC22408E9CA00240C5C /* UIView+Gradient.m */; };
+		CBBDABC62408E9D400240C5C /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC52408E9D400240C5C /* UICollectionView+LG.m */; };
+		CBBDABD22408E9F100240C5C /* UIScrollView+LGType.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */; };
+		CBBDABD32408E9F100240C5C /* LGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */; };
+		CBBDABD42408E9F100240C5C /* LGCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABCD2408E9F000240C5C /* LGCollectionReusableView.m */; };
+		CBBDABD52408E9F100240C5C /* LGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABD02408E9F000240C5C /* LGScrollView.m */; };
+		CBBDABD62408E9F100240C5C /* LGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABD12408E9F100240C5C /* LGCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,20 @@
 		CBBDABB52408E98B00240C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBBDABB72408E98B00240C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBDABB82408E98B00240C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBBDABC12408E9CA00240C5C /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
+		CBBDABC22408E9CA00240C5C /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		CBBDABC42408E9D400240C5C /* UICollectionView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LG.h"; sourceTree = "<group>"; };
+		CBBDABC52408E9D400240C5C /* UICollectionView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LG.m"; sourceTree = "<group>"; };
+		CBBDABC82408E9F000240C5C /* UIScrollView+LGType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LGType.h"; sourceTree = "<group>"; };
+		CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LGType.m"; sourceTree = "<group>"; };
+		CBBDABCA2408E9F000240C5C /* LGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewCell.h; sourceTree = "<group>"; };
+		CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewCell.m; sourceTree = "<group>"; };
+		CBBDABCC2408E9F000240C5C /* LGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionView.h; sourceTree = "<group>"; };
+		CBBDABCD2408E9F000240C5C /* LGCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionReusableView.m; sourceTree = "<group>"; };
+		CBBDABCE2408E9F000240C5C /* LGCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionReusableView.h; sourceTree = "<group>"; };
+		CBBDABCF2408E9F000240C5C /* LGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGScrollView.h; sourceTree = "<group>"; };
+		CBBDABD02408E9F000240C5C /* LGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGScrollView.m; sourceTree = "<group>"; };
+		CBBDABD12408E9F100240C5C /* LGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,7 @@
 		CBBDAB9A2408E98200240C5C = {
 			isa = PBXGroup;
 			children = (
+				CBBDABC02408E9B200240C5C /* Untils */,
 				CBBDABA52408E98200240C5C /* UIScrollViewTest */,
 				CBBDABA42408E98200240C5C /* Products */,
 			);
@@ -61,6 +83,7 @@
 		CBBDABA52408E98200240C5C /* UIScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				CBBDABC72408E9E000240C5C /* Test */,
 				CBBDABA62408E98200240C5C /* AppDelegate.h */,
 				CBBDABA72408E98200240C5C /* AppDelegate.m */,
 				CBBDABA92408E98200240C5C /* SceneDelegate.h */,
@@ -74,6 +97,34 @@
 				CBBDABB82408E98B00240C5C /* main.m */,
 			);
 			path = UIScrollViewTest;
+			sourceTree = "<group>";
+		};
+		CBBDABC02408E9B200240C5C /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				CBBDABC42408E9D400240C5C /* UICollectionView+LG.h */,
+				CBBDABC52408E9D400240C5C /* UICollectionView+LG.m */,
+				CBBDABC12408E9CA00240C5C /* UIView+Gradient.h */,
+				CBBDABC22408E9CA00240C5C /* UIView+Gradient.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		CBBDABC72408E9E000240C5C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CBBDABCE2408E9F000240C5C /* LGCollectionReusableView.h */,
+				CBBDABCD2408E9F000240C5C /* LGCollectionReusableView.m */,
+				CBBDABCC2408E9F000240C5C /* LGCollectionView.h */,
+				CBBDABD12408E9F100240C5C /* LGCollectionView.m */,
+				CBBDABCA2408E9F000240C5C /* LGCollectionViewCell.h */,
+				CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */,
+				CBBDABCF2408E9F000240C5C /* LGScrollView.h */,
+				CBBDABD02408E9F000240C5C /* LGScrollView.m */,
+				CBBDABC82408E9F000240C5C /* UIScrollView+LGType.h */,
+				CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBDABD52408E9F100240C5C /* LGScrollView.m in Sources */,
 				CBBDABAE2408E98200240C5C /* ViewController.m in Sources */,
 				CBBDABA82408E98200240C5C /* AppDelegate.m in Sources */,
+				CBBDABD42408E9F100240C5C /* LGCollectionReusableView.m in Sources */,
+				CBBDABD62408E9F100240C5C /* LGCollectionView.m in Sources */,
+				CBBDABD22408E9F100240C5C /* UIScrollView+LGType.m in Sources */,
+				CBBDABD32408E9F100240C5C /* LGCollectionViewCell.m in Sources */,
+				CBBDABC32408E9CA00240C5C /* UIView+Gradient.m in Sources */,
+				CBBDABC62408E9D400240C5C /* UICollectionView+LG.m in Sources */,
 				CBBDABB92408E98B00240C5C /* main.m in Sources */,
 				CBBDABAB2408E98200240C5C /* SceneDelegate.m in Sources */,
 			);
