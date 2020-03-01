@@ -50,6 +50,7 @@
 		CBBDABCF2408E9F000240C5C /* LGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGScrollView.h; sourceTree = "<group>"; };
 		CBBDABD02408E9F000240C5C /* LGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGScrollView.m; sourceTree = "<group>"; };
 		CBBDABD12408E9F100240C5C /* LGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionView.m; sourceTree = "<group>"; };
+		CBBDABD72409068F00240C5C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		CBBDAB9A2408E98200240C5C = {
 			isa = PBXGroup;
 			children = (
+				CBBDABD72409068F00240C5C /* README.md */,
 				CBBDABC02408E9B200240C5C /* Untils */,
 				CBBDABA52408E98200240C5C /* UIScrollViewTest */,
 				CBBDABA42408E98200240C5C /* Products */,

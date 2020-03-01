@@ -11,17 +11,16 @@
 
 @implementation UIScrollView (LGType)
 
-- (void)setType:(LGScrollViewType)type {
-    objc_setAssociatedObject(self, _cmd, @(type), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+- (void)setPreviousOffsetY:(CGFloat)previousOffsetY {
+    objc_setAssociatedObject(self, _cmd, @(previousOffsetY), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
-- (LGScrollViewType)type {
-    NSNumber *value = objc_getAssociatedObject(self, @selector(setType:));
+
+- (CGFloat)previousOffsetY {
+    id value = objc_getAssociatedObject(self, @selector(setPreviousOffsetY:));
     if (value) {
-        return (LGScrollViewType)[value integerValue];
+        return [value floatValue];
     }
-    
-    [self setType:LGScrollViewType_Min];
-    return LGScrollViewType_Min;
+    return 0;
 }
 
 - (void)setCanScroll:(BOOL)canScroll {

@@ -10,15 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, LGScrollViewType) {
-    LGScrollViewType_Min,
-    LGScrollViewType_Center,
-    LGScrollViewType_Max,
-};
-
 @interface UIScrollView (LGType)
 
-@property(nonatomic) LGScrollViewType type;
+@property(nonatomic) CGFloat previousOffsetY;
 
 /// 默认YES
 @property(nonatomic) BOOL canScroll;
