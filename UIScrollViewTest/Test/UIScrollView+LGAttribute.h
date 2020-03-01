@@ -1,5 +1,5 @@
 //
-//  UIScrollView+LGType.h
+//  UIScrollView+LGAttribute.h
 //  ScrollViewTest
 //
 //  Created by lg on 2020/2/17.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIScrollView (LGType)
+@interface UIScrollView (LGAttribute)
 
 @property(nonatomic) CGFloat previousOffsetY;
 

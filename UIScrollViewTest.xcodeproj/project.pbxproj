@@ -16,7 +16,7 @@
 		CBBDABB92408E98B00240C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABB82408E98B00240C5C /* main.m */; };
 		CBBDABC32408E9CA00240C5C /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC22408E9CA00240C5C /* UIView+Gradient.m */; };
 		CBBDABC62408E9D400240C5C /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC52408E9D400240C5C /* UICollectionView+LG.m */; };
-		CBBDABD22408E9F100240C5C /* UIScrollView+LGType.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */; };
+		CBBDABD22408E9F100240C5C /* UIScrollView+LGAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABC92408E9F000240C5C /* UIScrollView+LGAttribute.m */; };
 		CBBDABD32408E9F100240C5C /* LGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */; };
 		CBBDABD42408E9F100240C5C /* LGCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABCD2408E9F000240C5C /* LGCollectionReusableView.m */; };
 		CBBDABD52408E9F100240C5C /* LGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABD02408E9F000240C5C /* LGScrollView.m */; };
@@ -40,8 +40,8 @@
 		CBBDABC22408E9CA00240C5C /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
 		CBBDABC42408E9D400240C5C /* UICollectionView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LG.h"; sourceTree = "<group>"; };
 		CBBDABC52408E9D400240C5C /* UICollectionView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LG.m"; sourceTree = "<group>"; };
-		CBBDABC82408E9F000240C5C /* UIScrollView+LGType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LGType.h"; sourceTree = "<group>"; };
-		CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LGType.m"; sourceTree = "<group>"; };
+		CBBDABC82408E9F000240C5C /* UIScrollView+LGAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LGAttribute.h"; sourceTree = "<group>"; };
+		CBBDABC92408E9F000240C5C /* UIScrollView+LGAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LGAttribute.m"; sourceTree = "<group>"; };
 		CBBDABCA2408E9F000240C5C /* LGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewCell.h; sourceTree = "<group>"; };
 		CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewCell.m; sourceTree = "<group>"; };
 		CBBDABCC2408E9F000240C5C /* LGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionView.h; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 				CBBDABCB2408E9F000240C5C /* LGCollectionViewCell.m */,
 				CBBDABCF2408E9F000240C5C /* LGScrollView.h */,
 				CBBDABD02408E9F000240C5C /* LGScrollView.m */,
-				CBBDABC82408E9F000240C5C /* UIScrollView+LGType.h */,
-				CBBDABC92408E9F000240C5C /* UIScrollView+LGType.m */,
+				CBBDABC82408E9F000240C5C /* UIScrollView+LGAttribute.h */,
+				CBBDABC92408E9F000240C5C /* UIScrollView+LGAttribute.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 				CBBDABA82408E98200240C5C /* AppDelegate.m in Sources */,
 				CBBDABD42408E9F100240C5C /* LGCollectionReusableView.m in Sources */,
 				CBBDABD62408E9F100240C5C /* LGCollectionView.m in Sources */,
-				CBBDABD22408E9F100240C5C /* UIScrollView+LGType.m in Sources */,
+				CBBDABD22408E9F100240C5C /* UIScrollView+LGAttribute.m in Sources */,
 				CBBDABD32408E9F100240C5C /* LGCollectionViewCell.m in Sources */,
 				CBBDABC32408E9CA00240C5C /* UIView+Gradient.m in Sources */,
 				CBBDABC62408E9D400240C5C /* UICollectionView+LG.m in Sources */,

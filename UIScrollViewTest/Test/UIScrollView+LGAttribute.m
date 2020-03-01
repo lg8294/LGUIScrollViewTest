@@ -1,15 +1,15 @@
 //
-//  UIScrollView+LGType.m
+//  UIScrollView+LGAttribute.m
 //  ScrollViewTest
 //
 //  Created by lg on 2020/2/17.
 //  Copyright © 2020 lg. All rights reserved.
 //
 
-#import "UIScrollView+LGType.h"
+#import "UIScrollView+LGAttribute.h"
 #import <objc/runtime.h>
 
-@implementation UIScrollView (LGType)
+@implementation UIScrollView (LGAttribute)
 
 - (void)setPreviousOffsetY:(CGFloat)previousOffsetY {
     objc_setAssociatedObject(self, _cmd, @(previousOffsetY), OBJC_ASSOCIATION_RETAIN_NONATOMIC);

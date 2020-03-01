@@ -13,7 +13,7 @@
 #import "LGCollectionViewCell.h"
 #import "LGCollectionReusableView.h"
 #import "UICollectionView+LG.h"
-#import "UIScrollView+LGType.h"
+#import "UIScrollView+LGAttribute.h"
 
 #define SCREEN_WIDTH (UIScreen.mainScreen.bounds.size.width)
 #define SCREEN_HEIGHT (UIScreen.mainScreen.bounds.size.height)
@@ -126,7 +126,7 @@
     if (scrollView == self.mainScrollView) {
 
         if (self.subScrollView.canScroll && self.subScrollView.contentOffset.y <= 0) {
-            // 子视图滑动到顶部，设置自己不能滚动，同时设置父视图可以滚动
+            // 子视图滑动到顶部，设置子视图不能滚动，同时设置父视图可以滚动
             self.subScrollView.canScroll = NO;
             self.subScrollView.showsVerticalScrollIndicator = NO;
             self.mainScrollView.canScroll = YES;
@@ -141,7 +141,7 @@
         }
         
         if (!scrollView.canScroll) {
-            // 父视图不可以滚动，需要在子视图中开启
+            // 父视图不可以滚动
             scrollView.contentOffset = CGPointMake(0, contentOffset);
         } else if (scrollView.contentOffset.y >= contentOffset) {
             // 超过临界值，设置自己不可以滚动，同时设置子视图可以滚动
@@ -159,7 +159,7 @@
     } else {
         
         if (!scrollView.canScroll) {
-            // 子视图不可以滚动，需要在父视图中开启
+            // 子视图不可以滚动
             scrollView.contentOffset = CGPointZero;
         }
 //        else if (scrollView.contentOffset.y <= 0) {

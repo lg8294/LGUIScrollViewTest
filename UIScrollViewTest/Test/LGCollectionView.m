@@ -7,7 +7,7 @@
 //
 
 #import "LGCollectionView.h"
-#import "UIScrollView+LGType.h"
+#import "UIScrollView+LGAttribute.h"
 
 @interface LGCollectionView ()<UIGestureRecognizerDelegate>
 
